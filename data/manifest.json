@@ -1,9 +1,84 @@
 {
   "description": "森林质量遥感、样地调查和巡护安排的本地合成资料",
   "sources": {
-    "imagery.csv": ["image_id", "stand_id", "period", "sensor", "season", "index_value", "coverage"],
-    "stands.csv": ["stand_id", "forest_type", "county", "protected_class", "area_ha"],
-    "field_checks.csv": ["check_id", "stand_id", "date", "finding", "observer", "coverage"],
-    "patrols.csv": ["patrol_id", "stand_id", "window", "route_id", "priority", "status"]
+    "imagery.csv": [
+      "image_id",
+      "stand_id",
+      "period",
+      "sensor",
+      "season",
+      "index_value",
+      "coverage"
+    ],
+    "stands.csv": [
+      "stand_id",
+      "forest_type",
+      "county",
+      "protected_class",
+      "area_ha"
+    ],
+    "field_checks.csv": [
+      "check_id",
+      "stand_id",
+      "date",
+      "finding",
+      "observer",
+      "coverage"
+    ],
+    "patrols.csv": [
+      "patrol_id",
+      "stand_id",
+      "window",
+      "route_id",
+      "priority",
+      "status"
+    ],
+    "sensor_bridge.csv": [
+      "bridge_id",
+      "stand_id",
+      "season",
+      "at",
+      "old_sensor",
+      "old_index",
+      "new_sensor",
+      "new_index",
+      "received_at"
+    ],
+    "inspection_history.csv": [
+      "opportunity_id",
+      "stand_id",
+      "season",
+      "prediction_time",
+      "visit_choice",
+      "accessible_fraction",
+      "observed_target",
+      "verification_available",
+      "prior_rule"
+    ],
+    "route_windows.csv": [
+      "slot_id",
+      "route_id",
+      "stand_id",
+      "begin",
+      "end",
+      "allowed_fraction",
+      "crew_hours",
+      "protection_deadline"
+    ],
+    "historical_seasons.csv": [
+      "record_id",
+      "stand_id",
+      "season",
+      "year",
+      "sensor",
+      "index_value",
+      "coverage",
+      "observed_at",
+      "received_at",
+      "visit_basis",
+      "visit_fraction",
+      "verification",
+      "verification_received"
+    ]
   }
 }
