@@ -1,0 +1,4 @@
+patrol_id,stand_id,window,route_id,priority,status
+P-41,F-21,2026-春,R-01,必须,待排期
+P-42,F-22,2026-春,R-02,常规,候选
+P-43,F-23,2026-春,R-03,必须,待排期

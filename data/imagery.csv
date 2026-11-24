@@ -1,0 +1,4 @@
+image_id,stand_id,period,sensor,season,index_value,coverage
+I-11,F-21,2024-夏,传感器甲,夏,0.61,0.92
+I-12,F-21,2025-夏,传感器乙,夏,0.54,0.87
+I-13,F-22,2025-春,传感器乙,春,0.48,0.74

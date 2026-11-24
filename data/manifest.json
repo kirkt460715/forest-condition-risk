@@ -1,0 +1,9 @@
+{
+  "description": "森林质量遥感、样地调查和巡护安排的本地合成资料",
+  "sources": {
+    "imagery.csv": ["image_id", "stand_id", "period", "sensor", "season", "index_value", "coverage"],
+    "stands.csv": ["stand_id", "forest_type", "county", "protected_class", "area_ha"],
+    "field_checks.csv": ["check_id", "stand_id", "date", "finding", "observer", "coverage"],
+    "patrols.csv": ["patrol_id", "stand_id", "window", "route_id", "priority", "status"]
+  }
+}
